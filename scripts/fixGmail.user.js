@@ -40,8 +40,8 @@
           if (!container) {
               container = document.createElement('div');
               container.id = 'monetate_gmail_override';
-              var style = 'width:40%; height:84px; margin-top:-10px; margin-left:30%;'+
-                              'margin-right:30%; padding:0px; position:relative;'+
+              var style = 'width:40%; height:84px; margin-top:-10px; margin-left:auto;'+
+                              'margin-right:auto; padding:0px; position:relative;'+
                               'white-space: no-wrap; bottom: -10px;';
               container.style.cssText = style;
               fragment.appendChild(container);
